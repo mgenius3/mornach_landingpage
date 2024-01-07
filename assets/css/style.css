@@ -612,14 +612,18 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  /* text-align: center; */
+  color: #5cb874;
 }
-
+.section-title strong {
+  color: #5cb874;
+}
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -628,7 +632,8 @@ section {
   height: 1px;
   background: #ddd;
   bottom: 1px;
-  left: calc(50% - 60px);
+  /* left: calc(50% - 60px); */
+  left: 0px;
 }
 
 .section-title h2::after {
@@ -639,7 +644,8 @@ section {
   height: 3px;
   background: #5cb874;
   bottom: 0;
-  left: calc(50% - 20px);
+  /* left: calc(50% - 20px); */
+  left: 40px;
 }
 
 .section-title p {
